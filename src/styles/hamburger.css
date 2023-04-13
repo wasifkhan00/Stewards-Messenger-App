@@ -1,0 +1,54 @@
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label .icon-bar {
+  display: none;
+  width: 15px;
+  height: 2px;
+  background-color: #0d0d0d;
+  margin: 3px;
+  transition: all 0.2s;
+}
+/* input[type="checkbox"] + label .top-bar {
+  transform: rotate(0);
+}
+input[type="checkbox"] + label .middle-bar {
+  opacity: 1;
+} */
+/* 
+input[type="checkbox"]:checked + label .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+input[type="checkbox"]:checked + label .middle-bar {
+  opacity: 0;
+}
+input[type="checkbox"]:checked + label .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+} */
+
+/* label .top-bar {
+  transform: rotate(0);
+}
+label .middle-bar {
+  opacity: 1;
+} */
+
+label .top-bar {
+  transform: rotate(50deg);
+  transform-origin: 10% 78%;
+}
+label .middle-bar {
+  opacity: 0;
+}
+label .bottom-bar {
+  transform: rotate(-50deg);
+  transform-origin: 10% 45%;
+}

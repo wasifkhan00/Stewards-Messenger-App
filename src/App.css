@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif !important;
+}
+
+.search_account {
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+/* Login Component Css Start */
+.App {
+  background: linear-gradient(45deg, rgb(15, 15, 15), rgb(43, 40, 40));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  align-items: center !important;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container input {
+  color: white;
+}
+.container span {
+  margin-top: 2.9rem;
+  font-size: 11px;
+
+  color: #b8adad;
+}
+
+.form_inputs {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  background: transparent;
+/*   border: 2px solid #2287bd; */
+  box-shadow: 1px 1px 7px #0ba997;
+/*   box-shadow: 3px 3px 1px #3b92aa; */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 32vw;
+  padding: 4rem 0;
+  /* height: 75vh; */
+  font-size: 13px;
+}
+
+.heading_top {
+  margin-bottom: 3rem;
+}
+
+.heading_top h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.form_inputs input {
+  border: none;
+  border-bottom: 1px solid #a3a3a3 !important;
+  margin: 0.4rem 0;
+  font-size: 11px;
+  height: 39px;
+  padding: 0 0.6rem;
+  outline: none;
+  background: none;
+  border: none;
+  width: 27vw;
+}
+.form_inputs input:focus {
+  /* box-shadow: 0px 0px 4px rgb(71, 147, 222); */
+  height: 38px;
+  border-right: 1px solid rgb(73, 73, 73) !important;
+  border-bottom: 1px solid rgb(73, 73, 73) !important;
+  border-top: 1px solid rgb(73, 73, 73) !important;
+  border-left: 1px solid rgb(73, 73, 73) !important;
+}
+
+.inputThree {
+  background: red;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputThree input {
+  font-size: 8px;
+  margin: 0;
+  padding: 0 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.form_inputs .button {
+  border-radius: 1px;
+  background: transparent;
+  width: 26vw;
+  font-size: 11px;
+
+  /* width: 40vw; */
+  margin-top: 1.7rem;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(11 169 151);
+  /* box-shadow: 0px 0px 2rgb(210, 214, 218)22); */
+  box-shadow: 0px 0px 2px rgb(71 147 222);
+  cursor: pointer;
+  padding: 0.7rem 0;
+  color: rgb(255, 255, 255) !important;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form_inputs .button:hover {
+  box-shadow: 0px 0px 4px rgb(11 169 151);
+}
+
+.inputOne,
+.inputTwo {
+  margin: 0.7rem 0;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
+
+/* Login Component Css End */
+
+/* Signup Component Css Start */
+
+.form_inputs_Container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+/*   border: 2px solid #2287bd; */
+/*   box-shadow: 3px 3px 1px #3b92aa; */
+  box-shadow: 1px 1px 7px #0ba997;
+  background: transparent;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 38vw;
+  padding: 2rem 0;
+  font-size: 13px;
+}
+
+.form_inputs_Container input {
+  color: white;
+  margin: 0.4rem 0;
+  font-size: 11px;
+  height: 34px;
+  border-bottom: 1px solid rgb(163 163 163) !important;
+  padding: 0 0.6rem;
+  outline: none;
+  background: none;
+  border: none;
+  width: 27vw;
+}
+.form_inputs_Container input:focus {
+  height: 37px;
+  border-right: 1px solid rgb(73, 73, 73) !important;
+  border-bottom: 1px solid rgb(73, 73, 73) !important;
+  border-top: 1px solid rgb(73, 73, 73) !important;
+  border-left: 1px solid rgb(73, 73, 73) !important;
+}
+.form_inputs_Container button {
+  background: transparent;
+  width: 26vw;
+  margin: 1rem;
+  text-align: center;
+  font-size: 11px;
+  text-decoration: none;
+  border: none;
+  border: 1px solid rgb(11 169 151);
+  /* box-shadow: 0px 0px 2rgb(210, 214, 218)22); */
+  box-shadow: 0px 0px 2px rgb(71 147 222);
+  cursor: pointer;
+  padding: 0.7rem 0;
+  color: rgb(255, 255, 255) !important;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form_inputs_Container button:hover {
+  box-shadow: 0px 0px 4px rgb(11 169 151);
+}
+
+#Have_an_Account {
+  color: #b8adad;
+  font-size: 11px;
+  margin-bottom: 1.4rem;
+}
+/* Signup Component Css End */
+
+/* Media Queries */
+
+@media only screen and (max-width: 1180px) {
+  .form_inputs {
+    width: 50vw;
+    padding: 2rem 0;
+  }
+
+  .form_inputs input {
+    width: 40vw;
+  }
+
+  .form_inputs .button {
+    width: 40vw;
+  }
+
+  .form_inputs_Container {
+    width: 50vw;
+  }
+
+  .form_inputs_Container input {
+    width: 40vw;
+  }
+
+  .form_inputs_Container button {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  .form_inputs {
+    width: 70vw;
+  }
+
+  .form_inputs input {
+    width: 60vw;
+  }
+
+  .form_inputs .button {
+    width: 60vw;
+  }
+
+  .form_inputs_Container {
+    width: 70vw;
+  }
+
+  .form_inputs_Container input {
+    width: 60vw;
+  }
+
+  .form_inputs_Container button {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .form_inputs {
+    width: 90vw;
+  }
+
+  .form_inputs input {
+    width: 80vw;
+  }
+
+  .form_inputs .button {
+    width: 80vw;
+  }
+
+  .form_inputs_Container {
+    width: 90vw;
+  }
+
+  .form_inputs_Container input {
+    width: 80vw;
+  }
+
+  .form_inputs_Container button {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 396px) {
+  .form_inputs {
+    width: 95vw;
+  }
+
+  .form_inputs input {
+    width: 88vw;
+  }
+
+  .form_inputs .button {
+    width: 88vw;
+  }
+
+  .form_inputs_Container {
+    width: 98vw;
+  }
+
+  .form_inputs_Container input {
+    width: 88vw;
+  }
+
+  .form_inputs_Container button {
+    width: 88vw;
+  }
+}

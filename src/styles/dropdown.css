@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.fucker {
+  margin: 2rem;
+}
+
+.mainDropDownContainer {
+  top: 4rem;
+  position: fixed;
+  z-index: 1 !important;
+  background-color: rgb(227, 42, 42);
+}
+.dropdowncontainer {
+  width: 125px;
+  z-index: 1 !important;
+  position: fixed;
+  right: 1rem;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.common {
+  padding: 0.5rem 0;
+  width: 130px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.common:hover {
+  background: rgb(66, 66, 66);
+  width: inherit;
+
+  color: white !important;
+}
+
+.containerOfResponses {
+  background: rgb(255 255 255 / 97%);
+  box-shadow: 0px 0px 2px rgb(196, 192, 192);
+  width: 28vw;
+  height: 20rem;
+  position: fixed;
+  overflow-y: auto;
+  top: 1.4rem;
+  margin: 6rem 35rem;
+}
+
+.containerOfResponses::-webkit-scrollbar {
+  width: 12px;
+}
+
+.containerOfResponses::-webkit-scrollbar-track {
+  background: #8d8d8c;
+}
+
+.containerOfResponses::-webkit-scrollbar-thumb {
+  background-color: #e5e5e5;
+  border: none;
+}
